@@ -1,0 +1,3 @@
+export const ADD_TEXT = "ADD_TEXT";
+export const ADD_TEXT_SUCCESS = "ADD_TEXT_SUCCESS";
+export const TEXT_SHOW_SUCCESS = "TEXT_SHOW_SUCCESS";

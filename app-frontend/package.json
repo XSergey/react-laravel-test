@@ -1,0 +1,53 @@
+{
+  "name": "app-frontend",
+  "version": "1.0.0",
+  "description": "Test app for Pure Byte",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "keywords": [
+    "react",
+    "laravel",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-1": "^6.1.18",
+    "husky": "^0.14.3",
+    "jwt-decode": "^2.0.1",
+    "lint-staged": "^7.0.4",
+    "lodash": "^3.10.1",
+    "prettier": "^1.11.1",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^0.14.3",
+    "react-loader": "^2.4.0",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4",
+    "redux-form": "^5.1.3",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.0.1",
+    "spinkit": "^1.2.5"
+  }
+}
